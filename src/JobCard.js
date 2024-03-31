@@ -6,9 +6,17 @@ function JobCard(props) {
       <div class="card-body">
         <h5 class="card-title">{title}</h5>
         <p class="card-text">{description}</p>
-        <a href="#" class="btn btn-primary">
+        <button
+          type="submit"
+          style={{
+            backgroundColor: "#FFD700",
+            border: "none",
+            color: "black",
+          }}
+          className="btn btn-primary"
+        >
           Learn More
-        </a>
+        </button>
       </div>
     </div>
   );
